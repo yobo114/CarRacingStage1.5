@@ -11,16 +11,20 @@
     <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
 
-
-    <script>
-      //Your web app's Firebase configuration
-      
-      // // Initialize Firebase
-      // firebase.initializeApp(firebaseConfig);
-
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    </script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBgiUMe9KgFzGbjRGfTG-n81Fuvd-AJVZU",
+    authDomain: "multi-player-set-up.firebaseapp.com",
+    databaseURL: "https://multi-player-set-up-default-rtdb.firebaseio.com",
+    projectId: "multi-player-set-up",
+    storageBucket: "multi-player-set-up.appspot.com",
+    messagingSenderId: "625565413309",
+    appId: "1:625565413309:web:f5665ac846f36523042cd4"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 
     <script src="js/Player.js"></script>
     <script src="js/Form.js"></script>

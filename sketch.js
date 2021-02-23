@@ -6,10 +6,26 @@ var allPlayers;
 var distance = 0;
 var database;
 
+var car1Img 
+var car2Img
+var car3Img
+var car4Img
+var groundImg
+var trackImg
+
 var form, player, game;
 
 var cars, car1, car2, car3, car4;
 
+function preload (){
+car1Img = loadImage("images/car1.png")
+car2Img = loadImage("images/car2.png")
+car3Img = loadImage("images/car3.png")
+car4Img = loadImage("images/car4.png")
+trackImg = loadImage("images/track.jpg")
+groundImg = loadImage("images/ground.png")
+
+}
 
 function setup(){
   canvas = createCanvas(displayWidth - 20, displayHeight-30);
@@ -29,3 +45,4 @@ function draw(){
     game.play();
   }
 }
+
